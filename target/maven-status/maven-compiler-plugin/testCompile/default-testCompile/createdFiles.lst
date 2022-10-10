@@ -1,0 +1,6 @@
+steps/LoginSteps.class
+Base/BaseTest.class
+runner/SmokeRunner.class
+steps/Hooks.class
+steps/BaseTest.class
+steps/AddNewUser.class

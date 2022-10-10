@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.SmokeRunner" time="14.554" tests="4" errors="4" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/aidarka61/Downloads/TAF/target/test-classes:/Users/aidarka61/Downloads/TAF/target/classes:/Users/aidarka61/.m2/repository/io/cucumber/cucumber-java/7.8.0/cucumber-java-7.8.0.jar:/Users/aidarka61/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/aidarka61/.m2/repository/io/cucumber/cucumber-core/7.8.0/cucumber-core-7.8.0.jar:/Users/aidarka61/.m2/repository/io/cucumber/cucumber-gherkin/7.8.0/cucumber-gherkin-7.8.0.jar:/Users/aidarka61/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.8.0/cucumber-gherkin-messages-7.8.0.jar:/Users/aidarka61/.m2/repository/io/cucumber/gherkin/24.0.0/gherkin-24.0.0.jar:/Users/aidarka61/.m2/repository/io/cucumber/messages/19.1.2/messages-19.1.2.jar:/Users/aidarka61/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/aidarka61/.m2/repository/io/cucumber/cucumber-expressions/16.0.0/cucumber-expressions-16.0.0.jar:/Users/aidarka61/.m2/repository/io/cucumber/datatable/7.8.0/datatable-7.8.0.jar:/Users/aidarka61/.m2/repository/io/cucumber/cucumber-plugin/7.8.0/cucumber-plugin-7.8.0.jar:/Users/aidarka61/.m2/repository/io/cucumber/docstring/7.8.0/docstring-7.8.0.jar:/Users/aidarka61/.m2/repository/io/cucumber/html-formatter/20.1.0/html-formatter-20.1.0.jar:/Users/aidarka61/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/aidarka61/.m2/repository/io/cucumber/cucumber-junit/7.8.0/cucumber-junit-7.8.0.jar:/Users/aidarka61/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/aidarka61/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/aidarka61/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/Users/aidarka61/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/aidarka61/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/Users/aidarka61/.m2/repository/org/seleniumhq/selenium/selenium-java/4.4.0/selenium-java-4.4.0.jar:/Users/aidarka61/.m2/repository/org/seleniumhq/selenium/selenium-api/4.4.0/selenium-api-4.4.0.jar:/Users/aidarka61/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.4.0/selenium-chrome-driver-4.4.0.jar:/Users/aidarka61/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/aidarka61/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/aidarka61/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/aidarka61/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/aidarka61/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/aidarka61/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/aidarka61/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/aidarka61/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/aidarka61/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/aidarka61/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/aidarka61/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.4.0/selenium-chromium-driver-4.4.0.jar:/Users/aidarka61/.m2/repository/org/seleniumhq/selenium/selenium-json/4.4.0/selenium-json-4.4.0.jar:/Users/aidarka61/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v102/4.4.0/selenium-devtools-v102-4.4.0.jar:/Users/aidarka61/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v103/4.4.0/selenium-devtools-v103-4.4.0.jar:/Users/aidarka61/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v104/4.4.0/selenium-devtools-v104-4.4.0.jar:/Users/aidarka61/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.4.0/selenium-devtools-v85-4.4.0.jar:/Users/aidarka61/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.4.0/selenium-edge-driver-4.4.0.jar:/Users/aidarka61/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.4.0/selenium-firefox-driver-4.4.0.jar:/Users/aidarka61/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.4.0/selenium-ie-driver-4.4.0.jar:/Users/aidarka61/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.4.0/selenium-opera-driver-4.4.0.jar:/Users/aidarka61/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.4.0/selenium-remote-driver-4.4.0.jar:/Users/aidarka61/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/aidarka61/.m2/repository/io/netty/netty-buffer/4.1.78.Final/netty-buffer-4.1.78.Final.jar:/Users/aidarka61/.m2/repository/io/netty/netty-codec-http/4.1.78.Final/netty-codec-http-4.1.78.Final.jar:/Users/aidarka61/.m2/repository/io/netty/netty-codec/4.1.78.Final/netty-codec-4.1.78.Final.jar:/Users/aidarka61/.m2/repository/io/netty/netty-handler/4.1.78.Final/netty-handler-4.1.78.Final.jar:/Users/aidarka61/.m2/repository/io/netty/netty-common/4.1.78.Final/netty-common-4.1.78.Final.jar:/Users/aidarka61/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.78.Final/netty-transport-classes-epoll-4.1.78.Final.jar:/Users/aidarka61/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.78.Final/netty-transport-classes-kqueue-4.1.78.Final.jar:/Users/aidarka61/.m2/repository/io/netty/netty-transport-native-epoll/4.1.78.Final/netty-transport-native-epoll-4.1.78.Final.jar:/Users/aidarka61/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.78.Final/netty-transport-native-kqueue-4.1.78.Final.jar:/Users/aidarka61/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.78.Final/netty-transport-native-unix-common-4.1.78.Final.jar:/Users/aidarka61/.m2/repository/io/netty/netty-transport/4.1.78.Final/netty-transport-4.1.78.Final.jar:/Users/aidarka61/.m2/repository/io/netty/netty-resolver/4.1.78.Final/netty-resolver-4.1.78.Final.jar:/Users/aidarka61/.m2/repository/io/opentelemetry/opentelemetry-api/1.16.0/opentelemetry-api-1.16.0.jar:/Users/aidarka61/.m2/repository/io/opentelemetry/opentelemetry-context/1.16.0/opentelemetry-context-1.16.0.jar:/Users/aidarka61/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.16.0/opentelemetry-exporter-logging-1.16.0.jar:/Users/aidarka61/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.16.0/opentelemetry-sdk-metrics-1.16.0.jar:/Users/aidarka61/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.16.0-alpha/opentelemetry-sdk-logs-1.16.0-alpha.jar:/Users/aidarka61/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.16.0/opentelemetry-sdk-common-1.16.0.jar:/Users/aidarka61/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.16.0/opentelemetry-sdk-extension-autoconfigure-spi-1.16.0.jar:/Users/aidarka61/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.16.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.16.0-alpha.jar:/Users/aidarka61/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.16.0/opentelemetry-sdk-trace-1.16.0.jar:/Users/aidarka61/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.16.0/opentelemetry-sdk-1.16.0.jar:/Users/aidarka61/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.16.0-alpha/opentelemetry-semconv-1.16.0-alpha.jar:/Users/aidarka61/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/aidarka61/.m2/repository/net/bytebuddy/byte-buddy/1.12.10/byte-buddy-1.12.10.jar:/Users/aidarka61/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/aidarka61/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/aidarka61/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/aidarka61/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/aidarka61/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/aidarka61/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/aidarka61/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/aidarka61/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/aidarka61/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/aidarka61/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/aidarka61/.m2/repository/org/seleniumhq/selenium/selenium-http/4.4.0/selenium-http-4.4.0.jar:/Users/aidarka61/.m2/repository/dev/failsafe/failsafe/3.2.4/failsafe-3.2.4.jar:/Users/aidarka61/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.4.0/selenium-safari-driver-4.4.0.jar:/Users/aidarka61/.m2/repository/org/seleniumhq/selenium/selenium-support/4.4.0/selenium-support-4.4.0.jar:/Users/aidarka61/.m2/repository/io/github/bonigarcia/webdrivermanager/5.3.0/webdrivermanager-5.3.0.jar:/Users/aidarka61/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/aidarka61/.m2/repository/com/google/code/gson/gson/2.9.1/gson-2.9.1.jar:/Users/aidarka61/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar:/Users/aidarka61/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar:/Users/aidarka61/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar:/Users/aidarka61/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/aidarka61/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/aidarka61/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/aidarka61/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/aidarka61/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/aidarka61/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/aidarka61/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/aidarka61/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/aidarka61/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar:/Users/aidarka61/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar:/Users/aidarka61/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/aidarka61/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/aidarka61/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/aidarka61/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/Users/aidarka61/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar:/Users/aidarka61/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/Users/aidarka61/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/aidarka61/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/aidarka61/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/aidarka61/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/aidarka61/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/aidarka61/.m2/repository/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="KG"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/aidarka61/Downloads/TAF/target/surefire/surefirebooter11413384339112526219.jar /Users/aidarka61/Downloads/TAF/target/surefire 2022-10-06T22-05-28_969-jvmRun1 surefire10328251297053427022tmp surefire_016726208985367468209tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/aidarka61/Downloads/TAF/target/test-classes:/Users/aidarka61/Downloads/TAF/target/classes:/Users/aidarka61/.m2/repository/io/cucumber/cucumber-java/7.8.0/cucumber-java-7.8.0.jar:/Users/aidarka61/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/aidarka61/.m2/repository/io/cucumber/cucumber-core/7.8.0/cucumber-core-7.8.0.jar:/Users/aidarka61/.m2/repository/io/cucumber/cucumber-gherkin/7.8.0/cucumber-gherkin-7.8.0.jar:/Users/aidarka61/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.8.0/cucumber-gherkin-messages-7.8.0.jar:/Users/aidarka61/.m2/repository/io/cucumber/gherkin/24.0.0/gherkin-24.0.0.jar:/Users/aidarka61/.m2/repository/io/cucumber/messages/19.1.2/messages-19.1.2.jar:/Users/aidarka61/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/aidarka61/.m2/repository/io/cucumber/cucumber-expressions/16.0.0/cucumber-expressions-16.0.0.jar:/Users/aidarka61/.m2/repository/io/cucumber/datatable/7.8.0/datatable-7.8.0.jar:/Users/aidarka61/.m2/repository/io/cucumber/cucumber-plugin/7.8.0/cucumber-plugin-7.8.0.jar:/Users/aidarka61/.m2/repository/io/cucumber/docstring/7.8.0/docstring-7.8.0.jar:/Users/aidarka61/.m2/repository/io/cucumber/html-formatter/20.1.0/html-formatter-20.1.0.jar:/Users/aidarka61/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/aidarka61/.m2/repository/io/cucumber/cucumber-junit/7.8.0/cucumber-junit-7.8.0.jar:/Users/aidarka61/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/aidarka61/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/aidarka61/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/Users/aidarka61/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/aidarka61/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/Users/aidarka61/.m2/repository/org/seleniumhq/selenium/selenium-java/4.4.0/selenium-java-4.4.0.jar:/Users/aidarka61/.m2/repository/org/seleniumhq/selenium/selenium-api/4.4.0/selenium-api-4.4.0.jar:/Users/aidarka61/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.4.0/selenium-chrome-driver-4.4.0.jar:/Users/aidarka61/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/aidarka61/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/aidarka61/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/aidarka61/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/aidarka61/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/aidarka61/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/aidarka61/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/aidarka61/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/aidarka61/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/aidarka61/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/aidarka61/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.4.0/selenium-chromium-driver-4.4.0.jar:/Users/aidarka61/.m2/repository/org/seleniumhq/selenium/selenium-json/4.4.0/selenium-json-4.4.0.jar:/Users/aidarka61/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v102/4.4.0/selenium-devtools-v102-4.4.0.jar:/Users/aidarka61/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v103/4.4.0/selenium-devtools-v103-4.4.0.jar:/Users/aidarka61/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v104/4.4.0/selenium-devtools-v104-4.4.0.jar:/Users/aidarka61/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.4.0/selenium-devtools-v85-4.4.0.jar:/Users/aidarka61/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.4.0/selenium-edge-driver-4.4.0.jar:/Users/aidarka61/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.4.0/selenium-firefox-driver-4.4.0.jar:/Users/aidarka61/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.4.0/selenium-ie-driver-4.4.0.jar:/Users/aidarka61/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/4.4.0/selenium-opera-driver-4.4.0.jar:/Users/aidarka61/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.4.0/selenium-remote-driver-4.4.0.jar:/Users/aidarka61/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/aidarka61/.m2/repository/io/netty/netty-buffer/4.1.78.Final/netty-buffer-4.1.78.Final.jar:/Users/aidarka61/.m2/repository/io/netty/netty-codec-http/4.1.78.Final/netty-codec-http-4.1.78.Final.jar:/Users/aidarka61/.m2/repository/io/netty/netty-codec/4.1.78.Final/netty-codec-4.1.78.Final.jar:/Users/aidarka61/.m2/repository/io/netty/netty-handler/4.1.78.Final/netty-handler-4.1.78.Final.jar:/Users/aidarka61/.m2/repository/io/netty/netty-common/4.1.78.Final/netty-common-4.1.78.Final.jar:/Users/aidarka61/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.78.Final/netty-transport-classes-epoll-4.1.78.Final.jar:/Users/aidarka61/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.78.Final/netty-transport-classes-kqueue-4.1.78.Final.jar:/Users/aidarka61/.m2/repository/io/netty/netty-transport-native-epoll/4.1.78.Final/netty-transport-native-epoll-4.1.78.Final.jar:/Users/aidarka61/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.78.Final/netty-transport-native-kqueue-4.1.78.Final.jar:/Users/aidarka61/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.78.Final/netty-transport-native-unix-common-4.1.78.Final.jar:/Users/aidarka61/.m2/repository/io/netty/netty-transport/4.1.78.Final/netty-transport-4.1.78.Final.jar:/Users/aidarka61/.m2/repository/io/netty/netty-resolver/4.1.78.Final/netty-resolver-4.1.78.Final.jar:/Users/aidarka61/.m2/repository/io/opentelemetry/opentelemetry-api/1.16.0/opentelemetry-api-1.16.0.jar:/Users/aidarka61/.m2/repository/io/opentelemetry/opentelemetry-context/1.16.0/opentelemetry-context-1.16.0.jar:/Users/aidarka61/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.16.0/opentelemetry-exporter-logging-1.16.0.jar:/Users/aidarka61/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.16.0/opentelemetry-sdk-metrics-1.16.0.jar:/Users/aidarka61/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.16.0-alpha/opentelemetry-sdk-logs-1.16.0-alpha.jar:/Users/aidarka61/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.16.0/opentelemetry-sdk-common-1.16.0.jar:/Users/aidarka61/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.16.0/opentelemetry-sdk-extension-autoconfigure-spi-1.16.0.jar:/Users/aidarka61/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.16.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.16.0-alpha.jar:/Users/aidarka61/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.16.0/opentelemetry-sdk-trace-1.16.0.jar:/Users/aidarka61/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.16.0/opentelemetry-sdk-1.16.0.jar:/Users/aidarka61/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.16.0-alpha/opentelemetry-semconv-1.16.0-alpha.jar:/Users/aidarka61/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/aidarka61/.m2/repository/net/bytebuddy/byte-buddy/1.12.10/byte-buddy-1.12.10.jar:/Users/aidarka61/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/aidarka61/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/aidarka61/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/aidarka61/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/aidarka61/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/aidarka61/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/aidarka61/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/aidarka61/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/aidarka61/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/aidarka61/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/aidarka61/.m2/repository/org/seleniumhq/selenium/selenium-http/4.4.0/selenium-http-4.4.0.jar:/Users/aidarka61/.m2/repository/dev/failsafe/failsafe/3.2.4/failsafe-3.2.4.jar:/Users/aidarka61/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.4.0/selenium-safari-driver-4.4.0.jar:/Users/aidarka61/.m2/repository/org/seleniumhq/selenium/selenium-support/4.4.0/selenium-support-4.4.0.jar:/Users/aidarka61/.m2/repository/io/github/bonigarcia/webdrivermanager/5.3.0/webdrivermanager-5.3.0.jar:/Users/aidarka61/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/aidarka61/.m2/repository/com/google/code/gson/gson/2.9.1/gson-2.9.1.jar:/Users/aidarka61/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar:/Users/aidarka61/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar:/Users/aidarka61/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar:/Users/aidarka61/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/aidarka61/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/aidarka61/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/aidarka61/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/aidarka61/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/aidarka61/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/aidarka61/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/aidarka61/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/aidarka61/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar:/Users/aidarka61/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar:/Users/aidarka61/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/aidarka61/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/aidarka61/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/aidarka61/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/Users/aidarka61/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar:/Users/aidarka61/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/Users/aidarka61/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/aidarka61/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/aidarka61/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/aidarka61/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/aidarka61/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/aidarka61/.m2/repository/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/aidarka61"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/aidarka61/Downloads/TAF"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/aidarka61/Downloads/TAF/target/surefire/surefirebooter11413384339112526219.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="18.0.2.1+0"/>
+    <property name="user.name" value="aidarka61"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.2.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/aidarka61/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/w6/8003fppx17vbfrwl2fycgh9w0000gn/T/"/>
+    <property name="java.version" value="18.0.2.1"/>
+    <property name="user.dir" value="/Users/aidarka61/Downloads/TAF"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/aidarka61/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="18.0.2.1+0"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="Add new user #1" classname="Create new user" time="2.319">
+    <error message="Cannot invoke &quot;com.talentlms.UI.pages.LoginPage.login(String)&quot; because &quot;this.loginPage&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "com.talentlms.UI.pages.LoginPage.login(String)" because "this.loginPage" is null
+</error>
+    <system-out><![CDATA[
+@Regression
+Scenario: Add new user               # src/main/resources/feature/AddNewUser.feature:8
+  Given user on web                  # steps.AddNewUser.user_on_web()
+      java.lang.NullPointerException: Cannot invoke "com.talentlms.UI.pages.LoginPage.login(String)" because "this.loginPage" is null
+	at steps.AddNewUser.user_on_web(AddNewUser.java:14)
+	at ✽.user on web(file:///Users/aidarka61/Downloads/TAF/src/main/resources/feature/AddNewUser.feature:4)
+
+  When user click on add User button # steps.AddNewUser.user_click_on_add_user_button()
+  Then user input fields             # steps.AddNewUser.user_input_fields()
+
+    Embedding screenshot [image/png 18954 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 54133
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 06, 2022 10:05:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Oct 06, 2022 10:05:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 106, so returning the closest version found: 104
+Oct 06, 2022 10:05:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 106 of 104
+]]></system-err>
+  </testcase>
+  <testcase name="Add new user #2" classname="Create new user" time="1.451">
+    <error message="Cannot invoke &quot;com.talentlms.UI.pages.LoginPage.login(String)&quot; because &quot;this.loginPage&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "com.talentlms.UI.pages.LoginPage.login(String)" because "this.loginPage" is null
+</error>
+    <system-out><![CDATA[
+@Regression
+Scenario: Add new user               # src/main/resources/feature/AddNewUser.feature:12
+  Given user on web                  # steps.AddNewUser.user_on_web()
+      java.lang.NullPointerException: Cannot invoke "com.talentlms.UI.pages.LoginPage.login(String)" because "this.loginPage" is null
+	at steps.AddNewUser.user_on_web(AddNewUser.java:14)
+	at ✽.user on web(file:///Users/aidarka61/Downloads/TAF/src/main/resources/feature/AddNewUser.feature:4)
+
+  When user click on add User button # steps.AddNewUser.user_click_on_add_user_button()
+  Then user input fields             # steps.AddNewUser.user_input_fields()
+
+    Embedding screenshot [image/png 18954 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 54582
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 06, 2022 10:05:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Oct 06, 2022 10:05:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 106, so returning the closest version found: 104
+Oct 06, 2022 10:05:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 106 of 104
+]]></system-err>
+  </testcase>
+  <testcase name="Positive :Create new user" classname="Create new user functionality" time="4.579">
+    <error message="Cannot invoke &quot;com.talentlms.UI.pages.LoginPage.inputUserNameOrEmail(String)&quot; because &quot;this.loginPage&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "com.talentlms.UI.pages.LoginPage.inputUserNameOrEmail(String)" because "this.loginPage" is null
+</error>
+    <system-out><![CDATA[
+@Regression
+Scenario: Positive :Create new user                         # src/main/resources/feature/CreateNewUser.feature:11
+  Given Go to login page                                    # steps.LoginSteps.go_to_login_page()
+  Given Enter "naka" in username or Email input field       # steps.LoginSteps.enter_in_username_or_email_input_field(java.lang.String)
+      java.lang.NullPointerException: Cannot invoke "com.talentlms.UI.pages.LoginPage.inputUserNameOrEmail(String)" because "this.loginPage" is null
+	at steps.LoginSteps.enter_in_username_or_email_input_field(LoginSteps.java:23)
+	at ✽.Enter "naka" in username or Email input field(file:///Users/aidarka61/Downloads/TAF/src/main/resources/feature/CreateNewUser.feature:5)
+
+  And Enter "nana&K81" in password input field              # steps.LoginSteps.enter_in_password_input_field(java.lang.String)
+  When user click on login button                           # steps.LoginSteps.user_click_on_login_button()
+  Then user should successfully logget in
+  Given user shoud click Add user button in Admin Home page
+  And verify following field names are displayed
+    | First name | last name | Email adress | Username | Password | Bio | User type | Time zone | Language |
+  And enter following data to create new user
+    | firstName | lastName | emailAddress   | userName | Password   |
+    | Elon      | Musk     | musl@tesla.com | elaon    | Very12345# |
+    | Leo       | Messi    | mess@tmail.com | messi    | Mess12345# |
+
+    Embedding screenshot [image/png 64017 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 54302
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 06, 2022 10:05:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Oct 06, 2022 10:05:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 106, so returning the closest version found: 104
+Oct 06, 2022 10:05:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 106 of 104
+]]></system-err>
+  </testcase>
+  <testcase name="Positive: Login with valid credential as Admin" classname="Login functionality" time="3.883">
+    <error message="Cannot invoke &quot;com.talentlms.UI.pages.LoginPage.inputUserNameOrEmail(String)&quot; because &quot;this.loginPage&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "com.talentlms.UI.pages.LoginPage.inputUserNameOrEmail(String)" because "this.loginPage" is null
+</error>
+    <system-out><![CDATA[
+@Regression
+Scenario: Positive: Login with valid credential as Admin # src/main/resources/feature/Login.feature:7
+  Given Go to login page                                 # steps.LoginSteps.go_to_login_page()
+  Given Enter "naka" in username or Email input field    # steps.LoginSteps.enter_in_username_or_email_input_field(java.lang.String)
+      java.lang.NullPointerException: Cannot invoke "com.talentlms.UI.pages.LoginPage.inputUserNameOrEmail(String)" because "this.loginPage" is null
+	at steps.LoginSteps.enter_in_username_or_email_input_field(LoginSteps.java:23)
+	at ✽.Enter "naka" in username or Email input field(file:///Users/aidarka61/Downloads/TAF/src/main/resources/feature/Login.feature:8)
+
+  And Enter "nana&K81" in password input field           # steps.LoginSteps.enter_in_password_input_field(java.lang.String)
+  When user click on login button                        # steps.LoginSteps.user_click_on_login_button()
+  Then user should successfully logged in                # steps.LoginSteps.user_should_successfully_logged_in()
+
+    Embedding screenshot [image/png 64188 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 65399
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 06, 2022 10:05:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Oct 06, 2022 10:05:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 106, so returning the closest version found: 104
+Oct 06, 2022 10:05:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 106 of 104
+]]></system-err>
+  </testcase>
+</testsuite>

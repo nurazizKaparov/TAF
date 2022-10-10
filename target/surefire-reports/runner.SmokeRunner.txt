@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: runner.SmokeRunner
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 14.554 s <<< FAILURE! - in runner.SmokeRunner
+Add new user #1(Create new user)  Time elapsed: 2.319 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.talentlms.UI.pages.LoginPage.login(String)" because "this.loginPage" is null
+
+Add new user #2(Create new user)  Time elapsed: 1.451 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.talentlms.UI.pages.LoginPage.login(String)" because "this.loginPage" is null
+
+Positive :Create new user(Create new user functionality)  Time elapsed: 4.579 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.talentlms.UI.pages.LoginPage.inputUserNameOrEmail(String)" because "this.loginPage" is null
+
+Positive: Login with valid credential as Admin(Login functionality)  Time elapsed: 3.883 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.talentlms.UI.pages.LoginPage.inputUserNameOrEmail(String)" because "this.loginPage" is null
+
